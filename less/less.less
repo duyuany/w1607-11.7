@@ -5,7 +5,7 @@
 /*小屏的时候*/
 .container{
   &{
-     width:@num1*1-@minWidth;
+     width:100%;
      margin: auto;
   }
   &>.row{
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: @num1){
   .container{
-      width:@num1;
+      width:100%;
       margin: auto;
     }
  .loop(m);
@@ -50,7 +50,7 @@
 /*大屏*/
 @media screen and (min-width: @num2){
   .container{
-    width:@num2;
+    width:100%;
     margin: auto;
   }
   .loop(l);

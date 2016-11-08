@@ -1,0 +1,224 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: "HanHei SC", PingHei, "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul,li{
+    list-style: none;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.adv-wrapper{
+    background: #444;
+    line-height: 1;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.adv-wrapper .adv-wrapper-text {
+    color: #a8a8aa;
+    font-size: 12px;
+    color: #a8a8aa;
+    display: block;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-align: right;
+    max-width: 976px;
+    margin: 0 auto;
+}
+#nav{
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 48px;
+    max-height: 44px;
+    background: #333;
+    background: rgba(0,0,0,0.8);
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+#nav-content{
+    margin: 0 auto;
+    max-width: 980px;
+    /*padding: 0 22px;*/
+    /*position: relative;*/
+    /*z-index: 2;*/
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+#nav-content ul{
+    cursor: default;
+    margin: 0 -10px;
+    width: auto;
+    height: 44px;
+    text-align: justify;
+}
+#nav-content ul li{
+    /*float: left;*/
+    display: inline-block;
+    position: relative;
+    /*width: 105px;*/
+    height: 44px;
+    margin:0 37px;
+    z-index: 1;
+    vertical-align: top;
+}
+#nav-content ul li a{
+    color: #fff;
+    font-size: 14px;
+    line-height: 44px;
+}
+.slide-wrap{
+    position: relative;
+    top: -44px;
+    z-index: 1;
+    overflow: hidden;
+    height:562px;
+    width: 100%;
+    /*background: red;*/
+}
+.pro{
+    box-sizing: border-box;
+    margin-top: -43px;
+}
+.pro div[class*=col]{
+    border: 1px solid #fff;
+    height:200px;
+}
+
+.pro1{
+    background: url('../img/111.jpg') no-repeat center;
+}
+.pro2{
+    background: url('../img/222.jpg') no-repeat center;
+}
+.pro3{
+    background: url('../img/333.jpg') no-repeat center;
+}
+.pro4{
+    background: url('../img/444.jpg') no-repeat center;
+}
+@media screen and (min-width: 710px){
+    .pro1{
+        background: url('../img/11.jpg') no-repeat center;
+    }
+    .pro2{
+        background: url('../img/22.jpg') no-repeat center;
+    }
+    .pro3{
+        background: url('../img/33.jpg') no-repeat center;
+    }
+    .pro4{
+        background: url('../img/44.jpg') no-repeat center;
+    }
+}
+@media screen and (min-width: 1050px){
+    .pro1{
+        background: url('../img/watch.jpg') no-repeat center;
+    }
+    .pro2{
+        background: url('../img/erji.jpg') no-repeat center;
+    }
+    .pro3{
+        background: url('../img/phone.jpg') no-repeat center;
+    }
+    .pro4{
+        background: url('../img/4.jpg') no-repeat center;
+    }
+}
+
+footer{
+    font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 400;
+    letter-spacing: normal;
+    background-color: #f2f2f2;
+    color: #666;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.ac-gf-content {
+    margin: 0 auto;
+    padding: 0 22px;
+    max-width: 980px;
+}
+.slide-wrap ul{
+    position: absolute;
+    left:0;
+    top:-15px;
+    width: 100%;
+    height:100%;
+    /*background: url("../img/z.jpg");*/
+}
+.slide-wrap ul li{
+    width: 100%;
+    height:100%;
+    background: url("../img/z.jpg");
+}
+.ac-gf-sosumi {
+    border-bottom: 1px solid #e3e3e3;
+    color: #999;
+    padding: 16px 0 11px;
+}
+.ac-gf-sosumi li {
+    font-size: 12px;
+    line-height: 1.33333;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.ac-gf-directory {
+    font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 400;
+    letter-spacing: normal;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+}
+.ac-gf-directory-column {
+    position: relative;
+    z-index: 1;
+    min-height: 2px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 20%;
+}
+.ac-gf-directory-column-section {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    min-height: 2px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    pointer-events: none;
+}
+.ac-gf-directory-column-section-title {
+    font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0;
+}
+.ac-gf-directory-column-section-list {
+    margin-right: 20px;
+    list-style: none;
+    padding: 0;
+}
+.ac-gf-directory-column-section-list a {
+    color: #666;
+    text-decoration: none;
+}
